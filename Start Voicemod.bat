@@ -19,5 +19,5 @@ netsh interface set interface "Ethernet" enable
 ECHO Internet Successfully Enabled!
 ECHO.
 ECHO Done!
-pause
+timeout /t 10
 close
